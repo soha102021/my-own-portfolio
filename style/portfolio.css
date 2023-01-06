@@ -62,12 +62,14 @@ nav h2 {
     }
 .image{
     width: 500px;
+    height: 500px;
 }
 .sub-title{
     font-size: 50px;
 }
 .about-me{
     color: black;
+    text-align: center;
 }
 
 /*about me*/
@@ -84,4 +86,59 @@ nav h2 {
 .about-info{
     display: flex;
     gap: 30px;
+}
+
+.para-title{
+    font-weight: 600;
+    
+}
+/* What I do*/
+.what-do{
+    display: flex;
+    padding: 0px 500px;
+    gap: 20px;
+    
+}
+.wt-do{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 50px;
+}
+.wt-skill{
+    box-shadow: 10px 20px 30px gray;
+    border-radius: 10px;
+}
+
+/*resume section*/
+
+.resume-sec{
+    display: flex;
+    gap: 25px;
+    padding: 0 500px;
+}
+.centre{
+    text-align: center;
+    
+
+}
+.resume-title{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.resume-sub-title{
+    font-weight: 700;
+}
+.foot{
+    text-align: center;
+    font-size: 25px;
+    background-color: black;
+    font-weight: 600;
+    color: aliceblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 100px;
 }
