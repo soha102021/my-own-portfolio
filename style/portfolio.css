@@ -1,0 +1,87 @@
+* {
+    font-family:'Open Sans', sans-serif;
+
+}
+.header{
+    background-color: antiquewhite;
+    margin: 50px 200px;
+    background-image: url('/images/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    
+    
+}
+/* all about nav*/
+nav {
+ margin: 50px 100px;
+ display: flex;
+ justify-content: space-between;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    font-weight: 500;
+    
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.button {
+    background-color: coral;
+    color: white;
+    border: none;
+    height: 50px;
+    font-weight: 600;
+    border-radius: 20px;
+    width: max-content;
+    font-size: 15px;
+}
+.span {
+    color: coral;
+}
+nav h2 {
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 150px;
+}
+
+
+/* identity section*/
+
+.identity{
+    padding: 0 200px;
+    display: flex;
+    align-items: center;
+    
+}
+ .title {
+    font-weight: 800;
+    font-size: 30px;
+    }
+.image{
+    width: 500px;
+}
+.sub-title{
+    font-size: 50px;
+}
+.about-me{
+    color: black;
+}
+
+/*about me*/
+.skill{
+    margin: 0 500px;
+    padding: 70px;
+    background-color: antiquewhite;
+}
+.about-myself{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+.about-info{
+    display: flex;
+    gap: 30px;
+}
